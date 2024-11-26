@@ -5,7 +5,7 @@ const dotenv = require('dotenv').config()
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = process.env.MONGO_URI;
 
-const client = new MongoClient(uri,{useNewUrlParser:true});
+const client = new MongoClient(uri);
 
 const dbName = 'PassMan';
 const app = express() 
