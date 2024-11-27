@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-   "start":"npm ci"
+   "start":"npm i ci"
   },
   "keywords": [],
   "author": "",
