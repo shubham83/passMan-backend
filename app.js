@@ -3,7 +3,7 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 const dotenv = require('dotenv').config()
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = process.env.MONGO_URI;
+const uri = "mongodb+srv://Admin:shubhampoddar@cluster0.ga5afas.mongodb.net/PassMan";
 
 const client = new MongoClient(uri);
 
